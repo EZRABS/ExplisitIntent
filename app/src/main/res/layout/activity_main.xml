@@ -23,4 +23,22 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnExplisit2"
         android:text="Kirim Data ke Activity 3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExplisist3"
+        android:text="Kirim Data (Parceable) ke Activity 4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnImplisit4"
+        android:text="Menunggu return dari Activity 5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/returnHasil"
+        android:gravity="center"
+        android:hint="Menunggu ......"/>
+
 </LinearLayout>
